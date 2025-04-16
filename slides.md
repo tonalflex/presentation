@@ -1,8 +1,8 @@
 ---
-theme: seriph
-background: https://cover.sli.dev
+theme: default
+background: black
 
-title: Tonalflex Intro
+title: Tonalflex
 
 info: |
   # Introduction to the Tonalflex DSP app bundle.
@@ -14,18 +14,13 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Tonalflex
+<img src="/logo.svg" alt="Tonalflex Logo" style="max-width: 500px; margin: auto;" />
 
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+<div @click="$slidev.nav.next" class="mt-12 py-1" hover:text="white op-50">
+  Let's go to intro! <carbon:arrow-right />
 </div>
 
 <div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
@@ -52,8 +47,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
   <br>
   <br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -323,15 +316,6 @@ theme: seriph
 ---
 ```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
 ---
 
 # Clicks Animations
@@ -556,6 +540,56 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 foo: bar
 dragPos:
 square: 691,32,167,\_,-16
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
+
+---
+
+dragPos:
+square: -48,0,0,0
 
 ---
 
