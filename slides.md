@@ -29,7 +29,22 @@ mdc: true
 ---
 
 <h1>DAW (Digital Audio Workstation)</h1>
-<img src="/daw.jpeg" alt="Digital Audio Workstation" class="rounded-xl" />
+
+<div class="grid grid-cols-[auto_min-content_auto] items-center gap-6 mt-16">
+
+  <div class="h-[300px] overflow-hidden flex items-center justify-center">
+    <img src="/tape.jpg" alt="Tape" class="rounded-xl h-full w-auto object-cover" />
+  </div>
+
+  <div class="text-center text-4xl text-green-500">
+    →
+  </div>
+
+  <div class="h-[300px] overflow-hidden flex items-center justify-center">
+    <img src="/daw.jpeg" alt="DAW" class="rounded-xl h-full w-auto object-cover" />
+  </div>
+
+</div>
 
 <style>
 h1 {
