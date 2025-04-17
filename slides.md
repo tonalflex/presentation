@@ -90,6 +90,7 @@ h1 {
 
 <div v-click>
   <img src="/juce.png" alt="JUCE Logo" class="w-90 h-auto mb-12" />
+  <h3 class="mb-2">(2004)</h3>
   <ul class="text-xl">
     <li>Cross-platform C++ audio framework</li>
     <li>Built-in GUI, DSP, MIDI, plugin wrappers</li>
@@ -99,6 +100,7 @@ h1 {
 
 <div v-click>
   <img src="/elk.png" alt="JUCE Logo" class="h-28 mb-12" />
+  <h3 class="mb-2">(2017)</h3>
   <ul class="text-xl">
     <li>Real-time embedded Linux OS</li>
     <li>Designed for ultra-low latency audio</li>
