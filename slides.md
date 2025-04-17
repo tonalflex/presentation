@@ -155,21 +155,60 @@ p {
 
 ---
 
-# Tonalflex
+<img src="/juce.png" alt="JUCE Logo" class="w-50 h-auto mb-8" />
 
-<style>
-h1 {
-  background-image: linear-gradient(45deg, rgb(60, 122, 77) 10%, rgb(63, 167, 86) 20%);
-  padding-top: 8px;
-  padding-bottom: 4px;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-p {
-  padding-top: 4px;
-}
-</style>
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+  <!-- PluginProcessor Column -->
+  <div v-click>
+    <div class="rounded-2xl border border-orange-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">🎛️ Plugin Processor</h4>
+      <ul class="list-disc list-inside text-white space-y-2">
+        <li>Handles audio DSP processing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PluginEditor Column -->
+  <div v-click>
+    <div class="rounded-2xl border border-green-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">🖼️ Plugin Editor</h4>
+      <ul class="list-disc list-inside text-white space-y-2">
+        <li>Draws the plugin GUI</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Desktop/Standalone -->
+  <div v-click class="col-span-2">
+    <div class="rounded-2xl border border-yellow-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">🖥️ Desktop / Standalone App</h4>
+      <ul class="list-disc list-inside text-white space-y-2">
+        <li>Standalone JUCE app (not a plugin)</li>
+      </ul>
+    </div>
+  </div>
+
+   <!-- Headless DSP processor -->
+  <div v-click>
+    <div class="rounded-2xl border border-orange-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">Headless DSP processor</h4>
+      <ul class="list-disc list-inside text-white space-y-2">
+        <li>Handles audio DSP processing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PluginEditor Column -->
+  <div v-click>
+    <div class="rounded-2xl border border-green-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">Web UI (Decoupled)</h4>
+      <ul class="list-disc list-inside text-white space-y-2">
+        <li>Draws the plugin GUI</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
 
 ---
