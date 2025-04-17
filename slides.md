@@ -213,15 +213,18 @@ p {
 
 ---
 
+<!-- Logo -->
 <img src="/logo.svg" alt="Tonalflex" class="w-60 mx-auto mb-8" />
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<!-- Wrapper for columns and center box -->
+<div class="relative flex justify-center items-start gap-6 mt-6">
 
-  <div class="col-span-1">
+  <!-- Left Column -->
+  <div class="w-1/2">
     <div class="rounded-2xl border border-white-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white text-center mb-4">ElkOS</h4>
       <ul class="list-disc list-inside text-white space-y-6">
-         <div class="rounded-2xl border border-yellow-400 p-2 shadow-md">
+        <div class="rounded-2xl border border-yellow-400 p-2 shadow-md">
           <h3 class="text-center">Sushi</h3>
         </div>
         <div class="rounded-2xl border border-red-400 p-2 shadow-md">
@@ -231,11 +234,17 @@ p {
     </div>
   </div>
 
-  <div class="col-span-1">
+  <!-- Center Box (gRPC) -->
+  <div class="pt-28 w-25 h-25 flex items-center justify-center">
+    <img src="/grpc.png" alt="JUCE Logo" class="w-90 h-auto mb-12" />
+  </div>
+
+  <!-- Right Column -->
+  <div class="w-1/2">
     <div class="rounded-2xl border border-white-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white text-center mb-4">Tonalflex</h4>
       <ul class="list-disc list-inside text-white space-y-6">
-         <div class="rounded-2xl border border-blue-400 p-2 shadow-md">
+        <div class="rounded-2xl border border-blue-400 p-2 shadow-md">
           <h3 class="text-center">Tonalflex UI</h3>
         </div>
         <div class="rounded-2xl border border-green-400 p-2 shadow-md">
@@ -249,5 +258,3 @@ p {
   </div>
 
 </div>
-
----
