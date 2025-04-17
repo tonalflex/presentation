@@ -209,6 +209,13 @@ p {
     </div>
   </div>
 
+<img
+  v-click
+  class="absolute -bottom-9 -left-7 w-80 opacity-50"
+  src="https://sli.dev/assets/arrow-bottom-left.svg"
+  alt=""
+/>
+
 </div>
 
 ---
@@ -217,7 +224,7 @@ p {
 <img src="/logo.svg" alt="Tonalflex" class="w-80 mx-auto" />
 
 <!-- Wrapper for columns and center box -->
-<div class="relative flex justify-center items-start gap-6 mt-6">
+<div v-click class="relative flex justify-center items-start gap-6 mt-6">
 
   <!-- Left Column -->
   <div class="w-1/2">
@@ -247,14 +254,14 @@ p {
         <div class="rounded-2xl border border-blue-400 p-2 shadow-md">
           <h4 class="text-center">Tonalflex UI</h4>
         </div>
+        <div class="rounded-2xl border border-purple-400 p-1 shadow-md">
+          <img src="/envoy.png" alt="Tonalflex" class="w-26 mx-auto brightness-180" />
+        </div>
         <div class="rounded-2xl border border-grey-400 p-2 shadow-md">
           <h4 class="text-center">Plugins (VST3)</h4>
         </div>
         <div class="rounded-2xl border border-green-400 p-2 shadow-md">
           <h4 class="text-center">Butler</h4>
-        </div>
-        <div class="rounded-2xl border border-purple-400 p-2 shadow-md">
-          <h4 class="text-center">Envoy</h4>
         </div>
       </ul>
     </div>
@@ -263,6 +270,16 @@ p {
 
 ---
 
-# The Evolution of Audio DSP Plugins
+<div class="grid grid-cols-2">
+
+  <div class="flex justify-center items-center">
+    <img src="/grpc.png" alt="gRPC Logo" class="w-50 h-auto mb-8" />
+  </div>
+
+  <div class="flex justify-center items-center">
+    <img src="/envoy.png" alt="Envoy Logo" class="w-50 h-auto mb-8" />
+  </div>
+
+</div>
 
 ---
