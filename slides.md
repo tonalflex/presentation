@@ -28,6 +28,21 @@ mdc: true
 
 ---
 
+<h1>DAW (Digital Audio Workstation)</h1>
+<img src="/daw.jpeg" alt="Digital Audio Workstation" class="rounded-xl" />
+
+<style>
+h1 {
+  background-image: linear-gradient(45deg, rgb(60, 122, 77) 10%, rgb(63, 167, 86) 20%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
 # The Evolution of Audio DSP Plugins
 
 <div class="grid grid-cols-2 gap-14 text-left text-lg mt-10">
