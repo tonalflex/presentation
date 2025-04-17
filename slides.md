@@ -16,10 +16,6 @@ mdc: true
 
 <img src="/logo.svg" alt="Tonalflex Logo" style="max-width: 500px; margin: auto;" />
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:text="white op-50">
-  Start Intro <carbon:arrow-right />
-</div>
-
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/tonalflex" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
@@ -63,7 +59,7 @@ h1 {
 <div class="grid grid-cols-2 gap-14 text-left text-lg mt-10">
 
 <div v-click.animate-fade>
-  <h3 class="text-xl font-bold mb-2">🎹 VST (1996)</h3>
+  <h3 class="text-xl font-bold mb-2">VST (1996)</h3>
   <ul class="text-md">
     <li>Steinberg's Virtual Studio Technology</li>
     <li>First plugin format to gain wide traction</li>
@@ -71,8 +67,17 @@ h1 {
   </ul>
 </div>
 
+<div v-click>
+  <h3 class="text-xl font-bold mb-2">RTAS (1999) → AAX (2011)</h3>
+  <ul class="text-md">
+    <li>Avid’s real-time native plugin format</li>
+    <li>DSP-accelerated plugins for Pro Tools HD</li>
+    <li>(AAX) 64-bit plugin support in Pro Tools</li>
+  </ul>
+</div>
+
 <div v-click.animate-fade>
-  <h3 class="text-xl font-bold mb-2">🎼 Audio Units (2002)</h3>
+  <h3 class="text-xl font-bold mb-2">Audio Units (2002)</h3>
   <ul class="text-md">
     <li>Apple's native plugin format (AU)</li>
     <li>Core to Logic Pro and GarageBand</li>
@@ -81,20 +86,11 @@ h1 {
 </div>
 
 <div v-click>
-  <h3 class="text-xl font-bold mb-2">⚙️ LV2 (2008)</h3>
+  <h3 class="text-xl font-bold mb-2">LV2 (2008)</h3>
   <ul class="text-md">
     <li>Linux-native plugin format</li>
     <li>Modular and metadata-rich</li>
     <li>Powering JACK/Ardour-based systems</li>
-  </ul>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-2">🎧 AAX (2011)</h3>
-  <ul class="text-md">
-    <li>Avid Audio eXtension format</li>
-    <li>Successor to RTAS/TDM</li>
-    <li>Modern, 64-bit plugin support in Pro Tools</li>
   </ul>
 </div>
 
@@ -122,9 +118,10 @@ h1 {
   <img src="/juce.png" alt="JUCE Logo" class="w-90 h-auto mb-12" />
   <h3 class="mb-2">(2004)</h3>
   <ul class="text-xl">
-    <li>Cross-platform C++ audio framework</li>
+    <li>C++ audio DSP framework</li>
+    <li>Cross-compile VST/AU/RTAS/AAX/LV2</li>
     <li>Built-in GUI, DSP, MIDI, plugin wrappers</li>
-    <li>Used by top audio companies</li>
+    <li>Widely adopted by audio DSP developers</li>
   </ul>
 </div>
 
@@ -132,9 +129,10 @@ h1 {
   <img src="/elk.png" alt="JUCE Logo" class="h-28 mb-12" />
   <h3 class="mb-2">(2017)</h3>
   <ul class="text-xl">
-    <li>Real-time embedded Linux OS</li>
-    <li>Designed for ultra-low latency audio</li>
-    <li>Runs on Raspberry Pi, x86, and more</li>
+    <li>Dual-kernel headless Linux OS</li>
+    <li>Ultra-low audio latency ( < 0.3 ms )</li>
+    <li>Headless DAW / Plugin host ( Sushi )</li>
+    <li>Made in Sweden</li>
   </ul>
 </div>
 
