@@ -212,3 +212,42 @@ p {
 </div>
 
 ---
+
+<img src="/logo.svg" alt="Tonalflex" class="w-60 mx-auto mb-8" />
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+  <div class="col-span-1">
+    <div class="rounded-2xl border border-white-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white text-center mb-4">ElkOS</h4>
+      <ul class="list-disc list-inside text-white space-y-6">
+         <div class="rounded-2xl border border-yellow-400 p-2 shadow-md">
+          <h3 class="text-center">Sushi</h3>
+        </div>
+        <div class="rounded-2xl border border-red-400 p-2 shadow-md">
+          <h3 class="text-center">Raspa</h3>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-span-1">
+    <div class="rounded-2xl border border-white-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white text-center mb-4">Tonalflex</h4>
+      <ul class="list-disc list-inside text-white space-y-6">
+         <div class="rounded-2xl border border-blue-400 p-2 shadow-md">
+          <h3 class="text-center">Tonalflex UI</h3>
+        </div>
+        <div class="rounded-2xl border border-green-400 p-2 shadow-md">
+          <h3 class="text-center">Butler</h3>
+        </div>
+        <div class="rounded-2xl border border-purple-400 p-2 shadow-md">
+          <h3 class="text-center">Envoy</h3>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+---
