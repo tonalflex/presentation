@@ -162,7 +162,7 @@ p {
   <!-- PluginProcessor Column -->
   <div v-click>
     <div class="rounded-2xl border border-orange-400 p-4 shadow-md">
-      <h4 class="text-2xl font-bold text-white mb-4">🎛️ Plugin Processor</h4>
+      <h4 class="text-2xl font-bold text-white mb-4">🎛️ Plugin Processor (DSP)</h4>
       <ul class="list-disc list-inside text-white space-y-2">
         <li>Handles audio DSP processing</li>
       </ul>
@@ -171,8 +171,8 @@ p {
 
   <!-- PluginEditor Column -->
   <div v-click>
-    <div class="rounded-2xl border border-green-400 p-4 shadow-md">
-      <h4 class="text-2xl font-bold text-white mb-4">🖼️ Plugin Editor</h4>
+    <div class="rounded-2xl border border-yellow-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">🖼️ Plugin Editor (UI)</h4>
       <ul class="list-disc list-inside text-white space-y-2">
         <li>Draws the plugin GUI</li>
       </ul>
@@ -181,17 +181,17 @@ p {
 
   <!-- Desktop/Standalone -->
   <div v-click class="col-span-2">
-    <div class="rounded-2xl border border-yellow-400 p-4 shadow-md">
-      <h4 class="text-2xl font-bold text-white mb-4">🖥️ Desktop / Standalone App</h4>
+    <div class="rounded-2xl border border-green-400 p-4 shadow-md">
+      <h4 class="text-2xl font-bold text-white mb-4">🖥️ Desktop / DAW Plugin</h4>
       <ul class="list-disc list-inside text-white space-y-2">
-        <li>Standalone JUCE app (not a plugin)</li>
+        <li>Desktop Standalone App or Plugin (VST/RTAS/LV2/AU etc.)</li>
       </ul>
     </div>
   </div>
 
    <!-- Headless DSP processor -->
   <div v-click>
-    <div class="rounded-2xl border border-orange-400 p-4 shadow-md">
+    <div class="rounded-2xl border border-pink-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white mb-4">Headless DSP processor</h4>
       <ul class="list-disc list-inside text-white space-y-2">
         <li>Handles audio DSP processing</li>
@@ -201,7 +201,7 @@ p {
 
   <!-- PluginEditor Column -->
   <div v-click>
-    <div class="rounded-2xl border border-green-400 p-4 shadow-md">
+    <div class="rounded-2xl border border-blue-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white mb-4">Web UI (Decoupled)</h4>
       <ul class="list-disc list-inside text-white space-y-2">
         <li>Draws the plugin GUI</li>
