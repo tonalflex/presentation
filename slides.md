@@ -214,7 +214,7 @@ p {
 ---
 
 <!-- Logo -->
-<img src="/logo.svg" alt="Tonalflex" class="w-70 mx-auto mb-8" />
+<img src="/logo.svg" alt="Tonalflex" class="w-80 mx-auto" />
 
 <!-- Wrapper for columns and center box -->
 <div class="relative flex justify-center items-start gap-6 mt-6">
@@ -236,7 +236,7 @@ p {
 
   <!-- Center Box (gRPC) -->
   <div class="pt-28 w-25 h-25 flex items-center justify-center">
-    <img src="/grpc.png" alt="gRPC Logo" class="w-70 h-auto mb-12" />
+    <img src="/grpc.png" alt="gRPC Logo" class="w-70 h-auto" />
   </div>
 
   <!-- Right Column -->
@@ -259,5 +259,10 @@ p {
       </ul>
     </div>
   </div>
-
 </div>
+
+---
+
+# The Evolution of Audio DSP Plugins
+
+---
