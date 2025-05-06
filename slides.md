@@ -153,6 +153,10 @@ p {
 }
 </style>
 
+<!-- --- -->
+
+<!-- <img src="/elkos-aarch.png" alt="ElkOS ARM64" style="max-height: 58vh; margin: auto;" /> -->
+
 ---
 
 <img src="/juce.png" alt="JUCE Logo" class="w-50 h-auto mb-8" />
@@ -181,6 +185,8 @@ p {
 
   <!-- Desktop/Standalone -->
   <div v-click class="col-span-2">
+  <Arrow top="13rem" left="24rem" height="5rem" />
+  <Arrow top="13rem" left="51rem" height="5rem" />
     <div class="rounded-2xl border border-green-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white mb-4">🖥️ Desktop / DAW Plugin</h4>
       <ul class="list-disc list-inside text-white space-y-2">
@@ -191,6 +197,7 @@ p {
 
    <!-- Headless DSP processor -->
   <div v-click>
+  <Arrow top="13rem" left="28rem" height="14rem" />
     <div class="rounded-2xl border border-pink-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white mb-4">Headless DSP processor</h4>
       <ul class="list-disc list-inside text-white space-y-2">
@@ -201,6 +208,7 @@ p {
 
   <!-- PluginEditor Column -->
   <div v-click>
+  <Arrow top="13rem" left="55rem" height="14rem" />
     <div class="rounded-2xl border border-blue-400 p-4 shadow-md">
       <h4 class="text-2xl font-bold text-white mb-4">Web UI (Decoupled)</h4>
       <ul class="list-disc list-inside text-white space-y-2">
@@ -208,13 +216,6 @@ p {
       </ul>
     </div>
   </div>
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
 
 </div>
 
