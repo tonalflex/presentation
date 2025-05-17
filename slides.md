@@ -238,8 +238,13 @@ p {
     <div class="rounded-2xl border border-white p-8 shadow-md w-64">
       <img src="/elk.png" alt="ElkOS" class="w-40 p-4 mb-4 mx-auto" />
       <div class="space-y-4 text-white">
-        <div class="rounded-2xl border border-yellow-400 p-2 text-center shadow-md">Sushi</div>
+        <div class="rounded-2xl border border-grey-400 p-2 text-center shadow-md">Linux OS</div>
+        <div class="rounded-2xl border border-yellow-200 p-2 text-center shadow-md">Sushi</div>
         <div class="rounded-2xl border border-red-400 p-2 text-center shadow-md">Raspa</div>
+        <div class="flex justify-center">
+          <div class="m-2 w-60 h-0.2 bg-white"></div> <!-- vertical line -->
+        </div>
+        <div class="rounded-2xl border border-grey-400 p-2 text-center shadow-md">Xenomai RTOS</div>
       </div>
     </div>
   </div>
