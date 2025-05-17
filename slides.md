@@ -221,21 +221,21 @@ p {
 
 ---
 
-<h1>DAW DSP Plugin</h1>
+<h1>DAW Desktop DSP Plugin</h1>
 <img src="/delay-vst.png" alt="Delay VST3" style="max-width: 720px; margin: auto;" />
 
 ---
 
-<h1>Neural Amp Modeler</h1>
+<h1>Embedded Remote Control UI</h1>
 
 ---
 
 <!-- Wrapper: 3 equal columns, center-aligned -->
-<div class="grid grid-cols-3 items-center justify-items-center gap-6 mt-10">
+<div class="grid grid-cols-3 items-center justify-items-center gap-6 mt-4">
 
   <!-- Left Column (ElkOS) -->
   <div>
-    <div class="rounded-2xl border border-white p-4 shadow-md w-64">
+    <div class="rounded-2xl border border-white p-8 shadow-md w-64">
       <img src="/elk.png" alt="ElkOS" class="w-40 p-4 mb-4 mx-auto" />
       <div class="space-y-4 text-white">
         <div class="rounded-2xl border border-yellow-400 p-2 text-center shadow-md">Sushi</div>
@@ -251,33 +251,43 @@ p {
 
   <!-- Right Column (Tonalflex) -->
   <div>
-    <div class="rounded-2xl border border-white p-4 shadow-md w-64">
-      <img src="/logo.svg" alt="Tonalflex" class="w-60 p-4 mb-4 mx-auto" />
+    <div class="rounded-2xl border border-white p-8 shadow-md w-64">
+      <img src="/logo.svg" alt="Tonalflex" class="w-60 p-1 mb-8 mx-auto" />
       <div class="space-y-4 text-white">
-        <div class="rounded-2xl border border-blue-400 p-2 text-center shadow-md">Tonalflex UI</div>
+        <div class="rounded-2xl border border-blue-400 shadow-md">
+          <div class="flex items-center justify-center gap-1 p-2">
+            <span>Remote UI</span>
+            <img src="/ts.png" alt="TypeScript Logo" class="ml-2 w-5 h-5" />
+            <img src="/vue.png" alt="Vue Logo" class="w-5 h-5" />
+          </div>
+        </div>
         <div class="rounded-2xl border border-purple-400 p-2 text-center shadow-md">
           <img src="/envoy.png" alt="Envoy Logo" class="w-20 mx-auto brightness-200" />
         </div>
-        <div class="rounded-2xl border border-white p-2 text-center shadow-md">Plugins (VST3)</div>
-        <div class="rounded-2xl border border-green-400 p-2 text-center shadow-md">Butler (Python)</div>
+        <div class="rounded-2xl border border-yellow-400 pl-4 shadow-md">
+          <div class="flex items-center justify-center">
+            <span>Butler</span>
+            <img src="/python.png" alt="Python Logo" class="w-10 h-10" />
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="m-2 w-60 h-0.2 bg-white"></div> <!-- vertical line -->
+        </div>
+        <div class="rounded-2xl border border-white pl-4 shadow-md">
+          <div class="flex items-center justify-center p-1">
+            <span>Plugins</span>
+            <img src="/cpp.png" alt="Python Logo" class="ml-2 w-6 h-6" />
+            <img src="/juce.png" alt="Python Logo" class="ml-1 w-13 h-4" />
+          </div>
+        </div>
+        <!-- <div class="rounded-2xl border border-white p-2 text-center shadow-md">Plugins (VST3)</div> -->
       </div>
     </div>
+
   </div>
 
 </div>
 
 ---
-
-<div class="grid grid-cols-2">
-
-  <div class="flex justify-center items-center">
-    <img src="/grpc.png" alt="gRPC Logo" class="w-50 h-auto mb-8" />
-  </div>
-
-  <div class="flex justify-center items-center">
-    <img src="/envoy.png" alt="Envoy Logo" class="w-50 h-auto mb-8" />
-  </div>
-
-</div>
 
 ---
