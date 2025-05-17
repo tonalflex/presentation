@@ -110,7 +110,7 @@ h1 {
 
 ---
 
-# Audio DSP plugins on Embedded Devices?
+# How do we make Audio DSP plugins cross-platform?
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left text-lg mt-12">
 
@@ -221,52 +221,49 @@ p {
 
 ---
 
-<!-- Logo -->
-<img src="/logo.svg" alt="Tonalflex" class="w-80 mx-auto" />
+<h1>DAW DSP Plugin</h1>
+<img src="/delay-vst.png" alt="Delay VST3" style="max-width: 720px; margin: auto;" />
 
-<!-- Wrapper for columns and center box -->
-<div v-click class="relative flex justify-center items-start gap-6 mt-6">
+---
 
-  <!-- Left Column -->
-  <div class="w-1/2">
-    <div class="rounded-2xl border border-white-400 p-4 shadow-md">
-      <h4 class="text-2xl font-bold text-white text-center mb-4">ElkOS</h4>
-      <ul class="list-disc list-inside text-white space-y-4">
-        <div class="rounded-2xl border border-yellow-400 p-2 shadow-md">
-          <h4 class="text-center">Sushi</h4>
-        </div>
-        <div class="rounded-2xl border border-red-400 p-2 shadow-md">
-          <h4 class="text-center">Raspa</h4>
-        </div>
-      </ul>
+<h1>Neural Amp Modeler</h1>
+
+---
+
+<!-- Wrapper: 3 equal columns, center-aligned -->
+<div class="grid grid-cols-3 items-center justify-items-center gap-6 mt-10">
+
+  <!-- Left Column (ElkOS) -->
+  <div>
+    <div class="rounded-2xl border border-white p-4 shadow-md w-64">
+      <img src="/elk.png" alt="ElkOS" class="w-40 p-4 mb-4 mx-auto" />
+      <div class="space-y-4 text-white">
+        <div class="rounded-2xl border border-yellow-400 p-2 text-center shadow-md">Sushi</div>
+        <div class="rounded-2xl border border-red-400 p-2 text-center shadow-md">Raspa</div>
+      </div>
     </div>
   </div>
 
-  <!-- Center Box (gRPC) -->
-  <div class="pt-28 w-25 h-25 flex items-center justify-center">
-    <img src="/grpc.png" alt="gRPC Logo" class="w-70 h-auto" />
+  <!-- Center (gRPC logo) -->
+  <div class="flex items-center justify-center">
+    <img src="/grpc.png" alt="gRPC Logo" class="w-45 h-auto" />
   </div>
 
-  <!-- Right Column -->
-  <div class="w-1/2">
-    <div class="rounded-2xl border border-white-400 p-4 shadow-md">
-      <h4 class="text-2xl font-bold text-white text-center mb-4">Tonalflex</h4>
-      <ul class="list-disc list-inside text-white space-y-4">
-        <div class="rounded-2xl border border-blue-400 p-2 shadow-md">
-          <h4 class="text-center">Tonalflex UI</h4>
+  <!-- Right Column (Tonalflex) -->
+  <div>
+    <div class="rounded-2xl border border-white p-4 shadow-md w-64">
+      <img src="/logo.svg" alt="Tonalflex" class="w-60 p-4 mb-4 mx-auto" />
+      <div class="space-y-4 text-white">
+        <div class="rounded-2xl border border-blue-400 p-2 text-center shadow-md">Tonalflex UI</div>
+        <div class="rounded-2xl border border-purple-400 p-2 text-center shadow-md">
+          <img src="/envoy.png" alt="Envoy Logo" class="w-20 mx-auto brightness-200" />
         </div>
-        <div class="rounded-2xl border border-purple-400 p-1 shadow-md">
-          <img src="/envoy.png" alt="Tonalflex" class="w-26 mx-auto brightness-180" />
-        </div>
-        <div class="rounded-2xl border border-grey-400 p-2 shadow-md">
-          <h4 class="text-center">Plugins (VST3)</h4>
-        </div>
-        <div class="rounded-2xl border border-green-400 p-2 shadow-md">
-          <h4 class="text-center">Butler</h4>
-        </div>
-      </ul>
+        <div class="rounded-2xl border border-white p-2 text-center shadow-md">Plugins (VST3)</div>
+        <div class="rounded-2xl border border-green-400 p-2 text-center shadow-md">Butler (Python)</div>
+      </div>
     </div>
   </div>
+
 </div>
 
 ---
