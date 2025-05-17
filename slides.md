@@ -273,8 +273,8 @@ p {
         <div class="flex justify-center">
           <div class="m-2 w-60 h-0.2 bg-white"></div> <!-- vertical line -->
         </div>
-        <div class="rounded-2xl border border-white pl-4 shadow-md">
-          <div class="flex items-center justify-center p-1">
+        <div class="rounded-2xl border border-white pl-1 shadow-md">
+          <div class="flex items-center justify-center p-2">
             <span>Plugins</span>
             <img src="/cpp.png" alt="Python Logo" class="ml-2 w-6 h-6" />
             <img src="/juce.png" alt="Python Logo" class="ml-1 w-13 h-4" />
