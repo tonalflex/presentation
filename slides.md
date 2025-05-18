@@ -226,7 +226,21 @@ p {
 
 ---
 
-<h1>Embedded Remote Control UI</h1>
+<section class="text-white">
+  <h1 class="text-3xl font-bold text-center pb-4">Embedded Remote Control UI</h1>
+
+  <div class="grid grid-cols-2">
+    <!-- Image 1 -->
+    <div class="flex justify-center items-center">
+      <img src="/ios-plugins.png" alt="Image 1" class="w-50 h-auto" />
+    </div>
+    <!-- Image 2 -->
+    <div class="flex justify-center items-center">
+      <img src="/ios-delay.png" alt="Image 2" class="w-50 h-auto" />
+    </div>
+
+  </div>
+</section>
 
 ---
 
@@ -239,8 +253,8 @@ p {
       <img src="/elk.png" alt="ElkOS" class="w-40 p-4 mb-4 mx-auto" />
       <div class="space-y-4 text-white">
         <div class="rounded-2xl border border-grey-400 p-2 text-center shadow-md">Linux OS</div>
-        <div class="rounded-2xl border border-yellow-200 p-2 text-center shadow-md">Sushi</div>
-        <div class="rounded-2xl border border-red-400 p-2 text-center shadow-md">Raspa</div>
+        <div class="rounded-2xl border border-yellow-200 p-2 text-center shadow-md">Sushi (DAW)</div>
+        <div class="rounded-2xl border border-red-400 p-2 text-center shadow-md">Raspa (Drivers)</div>
         <div class="flex justify-center">
           <div class="m-2 w-60 h-0.2 bg-white"></div> <!-- vertical line -->
         </div>
