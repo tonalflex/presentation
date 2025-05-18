@@ -222,7 +222,7 @@ p {
 ---
 
 <h1 class="text-3xl font-bold text-center pb-4">DAW Desktop DSP Plugin</h1>
-<img src="/delay-vst.png" alt="Delay VST3" style="max-width: 720px; margin: auto;" />
+<img src="/delay-vst.png" alt="Delay VST3" style="max-width: 680px; margin: auto;" />
 
 ---
 
@@ -314,4 +314,17 @@ p {
 
 ---
 
+<section class="text-white">
+  <h1 class="text-3xl font-bold text-center pb-4">Hardware Prototype</h1>
+  <img src="/hw-idea.png" alt="Tonalflex" class="w-180 p-1 mb-8 mx-auto" />
+</section>
+
 ---
+
+<section class="text-white text-center py-12">
+  <h2 class="text-3xl font-bold mb-4">Thank You!</h2>
+  <img src="/tonalflex-qr-link.png" alt="Tonalflex" class="w-70 p-2 mb-8 mx-auto" />
+  <p class="text-lg max-w-xl mx-auto text-center">
+  Join the journey of open-sourcing audio!
+</p>
+</section>
