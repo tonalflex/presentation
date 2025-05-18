@@ -221,7 +221,7 @@ p {
 
 ---
 
-<h1>DAW Desktop DSP Plugin</h1>
+<h1 class="text-3xl font-bold text-center pb-4">DAW Desktop DSP Plugin</h1>
 <img src="/delay-vst.png" alt="Delay VST3" style="max-width: 720px; margin: auto;" />
 
 ---
@@ -229,12 +229,17 @@ p {
 <section class="text-white">
   <h1 class="text-3xl font-bold text-center pb-4">Embedded Remote Control UI</h1>
 
-  <div class="grid grid-cols-2">
-    <!-- Image 1 -->
+  <div class="grid grid-cols-3">
+    <!-- General UI -->
     <div class="flex justify-center items-center">
       <img src="/ios-plugins.png" alt="Image 1" class="w-50 h-auto" />
     </div>
-    <!-- Image 2 -->
+     <!-- TypeScript + Vue -->
+    <div class="flex justify-center gap-3 items-center">
+      <img src="/ts.png" alt="Image 1" class="w-30 h-auto" />
+      <img src="/vue.png" alt="Image 1" class="w-30 h-auto" />
+    </div>
+    <!-- Plugin -->
     <div class="flex justify-center items-center">
       <img src="/ios-delay.png" alt="Image 2" class="w-50 h-auto" />
     </div>
