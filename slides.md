@@ -316,7 +316,101 @@ p {
 
 <section class="text-white">
   <h1 class="text-3xl font-bold text-center pb-4">Neural Amp Modeler</h1>
+  <h2 class="text-3xl font-bold text-left pb-4">How it works...</h2>
+  <div class="flex flex-row justify-center items-center gap-8 mt-12">
+    <div class="flex flex-col items-center text-center">
+      <p class="text-xl font-semibold mb-4">Calibrated Input</p>
+      <img src="/audio-wave.png" alt="Input"
+           class="w-48 h-auto rounded-2xl border-2 border-white shadow-lg" />
+    </div>
+    <div class="text-6xl text-green">→</div>
+    <div class="flex flex-col items-center text-center">
+      <p class="text-xl font-semibold mb-4">Hardware</p>
+      <img src="/amp-speaker.png" alt="Hardware"
+           class="w-48 h-auto rounded-2xl border-2 border-white shadow-lg" />
+    </div>
+    <div class="text-6xl text-green">→</div>
+    <div class="flex flex-col items-center text-center">
+      <p class="text-xl font-semibold mb-4">Manipulated Output</p>
+      <img src="/audio-wave.png" alt="Output"
+           class="w-48 h-auto rounded-2xl border-2 border-white shadow-lg" />
+    </div>
+  </div>
 </section>
+
+<style>
+h1 {
+  background-image: linear-gradient(45deg, rgb(60, 122, 77) 10%, rgb(63, 167, 86) 20%);
+  padding-top: 8px;
+  padding-bottom: 4px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+p {
+  padding-top: 4px;
+}
+</style>
+
+---
+
+<section class="text-white">
+  <h1 class="text-3xl font-bold text-center pb-2">Neural Amp Modeler</h1>
+  <h2 class="text-xl font-bold text-left pb-6">How it's used...</h2>
+  <div class="flex flex-row justify-center items-center gap-6 max-w-screen-xl mx-auto">
+    <div class="flex flex-col items-center text-center max-w-[8rem] shrink-0">
+      <p class="text-md font-semibold mb-2">Input</p>
+      <img src="/audio-wave.png" alt="Input" class="w-32 h-auto rounded-2xl border-2 border-white shadow-md" />
+    </div>
+    <div class="text-4xl text-green-400">→</div>
+    <div class="flex flex-row items-start border-2 border-white rounded-2xl p-3 shadow-lg gap-4 shrink-0">
+      <div class="flex flex-col items-center text-center">
+        <p class="text-md font-semibold mb-2">Plugin</p>
+        <img src="/neuralamp-plugin.png" alt="Plugin" class="w-28 h-auto rounded-2xl shadow-md" />
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <p class="text-md font-semibold mb-2">Buffer Cycle</p>
+        <div class="relative w-24 h-24 items-center">
+          <div class="absolute inset-0 animate-spin-slow opacity-30">
+            <img src="/repeat.png" alt="Spinning Arrow" class="w-full h-full" />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <p class="text-md font-semibold mb-2">NAM Core</p>
+        <img src="/NAM.png" alt="NAM Core" class="w-28 h-auto rounded-2xl  shadow-md" />
+      </div>
+    </div>
+    <div class="text-4xl text-green-400">→</div>
+    <div class="flex flex-col items-center text-center max-w-[8rem] shrink-0">
+      <p class="text-md font-semibold mb-2">Manipulated Output</p>
+      <img src="/audio-wave.png" alt="Output" class="w-32 h-auto rounded-2xl border-2 border-white shadow-md" />
+    </div>
+  </div>
+</section>
+
+<style>
+h1 {
+  background-image: linear-gradient(45deg, rgb(60, 122, 77) 10%, rgb(63, 167, 86) 20%);
+  padding-top: 8px;
+  padding-bottom: 4px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+p {
+  padding-top: 4px;
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+</style>
 
 ---
 
