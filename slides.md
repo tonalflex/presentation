@@ -315,6 +315,12 @@ p {
 ---
 
 <section class="text-white">
+  <h1 class="text-3xl font-bold text-center pb-4">Neural Amp Modeler</h1>
+</section>
+
+---
+
+<section class="text-white">
   <h1 class="text-3xl font-bold text-center pb-4">Hardware Prototype</h1>
   <img src="/hw-idea.png" alt="Tonalflex" class="w-180 p-1 mb-8 mx-auto" />
 </section>
